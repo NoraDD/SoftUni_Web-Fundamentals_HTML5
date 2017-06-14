@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background: #333333;
+}
+
+main {
+    background: url("images/food-image-bg.png") no-repeat;
+    margin: 50px auto;
+    width: 960px;
+    height: 680px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h1,
+div.recipies-info {
+    float: right;
+}
+
+h1 {
+    margin-right: 50px;
+    font-size: 47px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+h1:after,
+ul:after,
+div.recipies-info:after,
+.btn-primary:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.recipies-info {
+    margin-top: 35px;
+    margin-right: 20px;
+}
+
+.recipies-info p {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.recipies-info span {
+    color: #b5c640;
+    font-weight: bold;
+}
+
+.btn-primary {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    background: none;
+    border: 3px solid #ffffff;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: #b5c640;
+    border: 3px solid #b5c640;
+}
+
+ul {
+    width: 550px;
+    float: right;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.prep-steps .step {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
