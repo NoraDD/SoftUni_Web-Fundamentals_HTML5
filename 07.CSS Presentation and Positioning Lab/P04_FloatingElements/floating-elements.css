@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 40%;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px 5px;
+}
+
+main .left {
+    width: 110px;
+    text-align: center;
+    border: 2px solid cornflowerBlue;
+    border-radius: 5px;
+    background: cornflowerBlue;
+    padding: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+main .right {
+    width: 110px;
+    text-align: center;
+    border: 2px solid cornflowerBlue;
+    border-radius: 5px;
+    background: cornflowerBlue;
+    padding: 10px;
+    margin-left: 10px;
+    float: right;
+}
+
+main .center {
+    width: 110px;
+    text-align: center;
+    border: 2px solid cornflowerBlue;
+    border-radius: 5px;
+    background: cornflowerBlue;
+    padding: 10px;
+    margin: 0 auto;
+}
