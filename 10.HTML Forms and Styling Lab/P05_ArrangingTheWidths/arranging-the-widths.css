@@ -1,0 +1,21 @@
+* {
+    color: #2D2D2D;
+}
+
+fieldset {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+}
+
+input, select{
+    width: 200px;
+}
+
+#message{
+    height: 100px;
+    width: 195px;
+}
