@@ -1,0 +1,39 @@
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url('OpenSans-ExtraBold.ttf')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: OpenSans-ExtraBold, Helvetica, sans-serif;
+    font-size: 16px;
+    background: linen;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 56px;
+    color: darkgreen;
+}
+
+main article {
+    width: 187px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 100px;
+    padding: 15px;
+}
+
+main article:hover {
+    border-left: 12px solid darkgreen;
+    background: whitesmoke;
+    cursor: pointer;
+}
+

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+}
+
+aside {
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    float: left;
+    background: #FFFFFF;
+}
+
+aside nav h1 {
+    font-family: "Comfortaa", sans-serif;
+    color: #333;
+    font-size: 3rem;
+    text-align: center;
+}
+
+aside nav > img {
+    display: block;
+    border-radius: 50%;
+    width: 40%;
+    margin: 0 auto;
+}
+
+aside nav > p {
+    color: #91a5af;
+    text-transform: uppercase;
+    margin: 10px auto;
+    text-align: center;
+}
+
+aside nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside nav ul li {
+    margin: 20px 1px;
+    padding: 5px 20px;
+}
+
+aside nav ul li a {
+    text-transform: uppercase;
+    color: #91a5af;
+}
+
+aside nav ul li a:hover {
+    color: #333;
+}
+
+main {
+    background: #ebebeb;
+    padding: 20px;
+    margin-left: 300px;
+}
+
+main h1 {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 2.3rem;
+    float: left;
+}
+
+main h1 span {
+    color: #91a5af;
+}
+
+main > button {
+    background: #ff7739;
+    padding: 10px;
+    border-radius: 30px;
+    border: solid 3px #ff7739;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    float: right;
+    vertical-align: top;
+}
+
+main h1:after,
+main > button:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+main > button a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main > button i {
+    color: #FFFFFF;
+}
+
+main > button:hover a,
+main > button:hover i {
+    color: #ff7739;
+}
+
+main > button:hover {
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+main > section:first-of-type {
+    margin-top: 80px;
+}
+
+main > section > h2 {
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+main > section > h3 {
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: #384850;
+}
+
+main section ul {
+    list-style-type: none;
+}
+
+main section ul li {
+    display: inline-block;
+    width: 30%;
+    margin-right: 30px;
+    box-shadow: 8px 6px 17px -1px rgba(0, 0, 0, 0.26);;
+}
+
+main section li div {
+    background: #FFFFFF;
+    position: relative;
+}
+
+main section ul li img {
+    width: 100%;
+    margin-top: 60px;
+}
+
+main section ul li button {
+    position: absolute;
+    top: 70px;
+    left: -10px;
+}
+
+main section ul li button.rented {
+    background: #91a5af;
+    border: solid 3px #91a5af;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main section ul li button.listed {
+    background: #68BB69;
+    border: solid 3px #68BB69;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main section ul li button.draft {
+    background: #91a5af;
+    border: solid 3px #91a5af;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main section ul li div p {
+    padding: 10px 20px;
+    text-transform: capitalize;
+}

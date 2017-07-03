@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Lemon-Regular;
+    src: url('Lemon-Regular.ttf')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: mediumpurple;
+}
+
+main {
+    width: 900px;
+    background: orange;
+    margin: 0 auto;
+    height: 400px;
+}
+
+main h1 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+main article {
+    width: 150px;
+    display: inline-block;
+    margin-left: 65px;
+    margin-right: 40px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: mediumpurple;
+    padding: 10px;
+}
+
+main article span {
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    color: #ffffff;
+}
+
+main article p:first-of-type {
+    text-align: center;
+    font-style: italic;
+    color: lightgoldenrodyellow;
+}
+
+main article img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid gray;
+}
+
+main article p {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+main article button {
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid gray;
+    background: #ffffff;
+    color: mediumpurple;
+    padding: 5px 35px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
