@@ -1,0 +1,170 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 13px Tahoma, Helvetica, sans-serif;
+    background: lightgray;
+}
+
+header {
+    width: 80%;
+    border-bottom: 1px dashed gray;
+    background: gainsboro;
+    margin: 0 auto;
+    padding: 10px 0 10px 5px;
+}
+
+header h1 {
+    font-size: 28px;
+    color: cornflowerblue;
+    font-weight: 100;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.first-part {
+    border-bottom: 1px dashed gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.first-part .basic-information {
+    float: left;
+    width: 67%;
+}
+
+.first-part .basic-information h2 {
+    font: 16px Tahoma, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.first-part .search-bar {
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.first-part .search-bar label {
+   font-weight: bold;
+    display: block;
+}
+
+.first-part .search-bar input {
+    height: 25px;
+    position: relative;
+}
+
+.first-part .search-bar i {
+    position: absolute;
+    z-index: 1;
+    right: 8px;
+    top: 21px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.first-part:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+form .personal-details {
+    float: left;
+}
+
+form .personal-details label {
+    font: 16px Tahoma, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+form .personal-details input {
+    display: block;
+    margin-top: 10px;
+    padding: 6px 0 6px 2px;
+}
+
+
+.request-reservation {
+    float: right;
+    width: 55%;
+}
+
+.request-reservation > label {
+    font: 16px Tahoma, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+}
+
+.request-reservation .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.request-reservation .wrapper .select-room,
+.request-reservation .wrapper .number-rooms,
+.request-reservation .wrapper .check-in,
+.request-reservation .wrapper .check-out {
+    display: inline-block;
+}
+
+.request-reservation .wrapper .select-room label,
+.request-reservation .wrapper .number-rooms label,
+.request-reservation .wrapper .check-in label,
+.request-reservation .wrapper .check-out label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.request-reservation .wrapper .select-room select {
+    width: 350px;
+    margin-right: 5px;
+    padding: 3px;
+}
+
+.request-reservation .wrapper .number-rooms input {
+    width: 200px;
+    height: 25px;
+}
+
+.request-reservation .wrapper .check-in input,
+.request-reservation .wrapper .check-out input {
+    width: 200px;
+    margin-right: 5px;
+}
+
+form:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+button {
+    position: absolute;
+    bottom:0;
+    right:0;
+    text-transform: capitalize;
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: cornflowerblue;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background: seagreen;
+}

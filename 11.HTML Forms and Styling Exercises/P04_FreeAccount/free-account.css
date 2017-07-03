@@ -1,0 +1,146 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: gainsboro;
+}
+
+main {
+    font-family: Tahoma, Helvetica, sans-serif;
+    width: 800px;
+    background: #ffffff;
+    margin: 10px auto;
+}
+
+header {
+    margin: 50px 50px 25px 50px;
+    border-bottom: 1px solid gainsboro;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+header p {
+    margin-bottom: 10px;
+}
+
+form {
+    padding: 0 50px 25px 50px;
+}
+
+form .new-account {
+    float: left;
+    width: 300px;
+}
+
+form .login {
+    float: right;
+    width: 302px;
+}
+
+form:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+form label {
+    display: block;
+}
+
+form .new-account > label:first-of-type,
+form .login > label:first-of-type {
+    font-weight: bold;
+}
+
+form .new-account > label:last-of-type,
+form .login > a {
+    font-size: 0.8em;
+}
+
+form .new-account > label:last-of-type {
+    width: 270px;
+    margin-bottom: 10px;
+}
+
+form input {
+    margin: 10px 10px 10px 0;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    width: 230px;
+}
+
+div.username,
+div.email,
+div.password,
+div.repeat-password,
+div.username-login,
+div.password-login {
+    position: relative;
+}
+
+i.username,
+i.email,
+i.username-login {
+    font-size: 16px;
+    position: absolute;
+    right: 55px;
+    top: 20px;
+    color: #ffffff;
+    background: #00BD00;
+}
+
+i.password,
+i.repeat-password,
+i.password-login {
+    font-size: 16px;
+    position: absolute;
+    right: 55px;
+    top: 20px;
+    color: #ffffff;
+    background: red;
+}
+
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+form .login a {
+    display: block;
+    text-decoration: none;
+    color: red;
+    padding-bottom: 10px;
+}
+
+form .login a:hover {
+    text-decoration: underline;
+}
+
+form button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    background: gainsboro;
+    border: 1px solid gray;
+    box-shadow: 3px 3px gray;
+}
+
+form button:hover {
+    background: lightgreen;
+    cursor: pointer;
+}
+
+
+

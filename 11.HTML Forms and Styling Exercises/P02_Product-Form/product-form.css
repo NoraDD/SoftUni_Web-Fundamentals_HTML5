@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px 'Lato', sans-serif;
+}
+
+main {
+    width: 750px;
+    height: 415px;
+    margin: 60px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 #42c9ca;
+}
+
+main > div {
+    background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+    width: 300px;
+    height: 416px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: left;
+    position: relative;
+}
+
+main > div > img {
+    max-width: 100%;
+    position: absolute;
+    top:50%;
+    margin-top: -145px;
+}
+
+main h2,
+main h3 {
+    padding-top: 24px;
+    padding-left: 330px;
+    font-weight: bold;
+    font-family: Anton, sans-serif;
+}
+
+main h3 {
+    padding-bottom: 20px;
+}
+
+form {
+    padding-left: 330px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+form select {
+    width: 173px;
+    background: #42c9ca;
+    color: #ffffff;
+    border: none;
+    padding: 7px 0;
+}
+
+form select,
+form input {
+    margin-left: 15px;
+}
+
+form input {
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 3px solid #42c9ca;
+    padding-bottom: 10px;
+    color:#42c9ca;
+}
+
+*::-webkit-input-placeholder {
+    color:#42c9ca;
+}
+
+button {
+    margin-top: 35px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #42c9ca;
+    text-transform: uppercase;
+    border: 3px solid #42c9ca;
+}
+
+button:hover {
+    background: #42c9ca;
+    color: #ffffff;
+    cursor: pointer;
+}
