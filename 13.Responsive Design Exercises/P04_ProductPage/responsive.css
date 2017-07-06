@@ -1,0 +1,58 @@
+@media screen and (max-width: 640px) {
+    body {
+        box-sizing: border-box;
+    }
+
+    .wrap {
+        width: 100%;
+        text-align: center;
+    }
+
+    #header-top-area h2,
+    #header-bottom-area {
+        display: none;
+    }
+
+    h1 {
+        width: 125px;
+    }
+
+    #header-middle-area {
+
+        text-align: left;
+        margin-top: 30px;
+        padding-left: 10px;
+
+    }
+
+    #product-menu {
+        display: block;
+        width: 100%;
+    }
+
+    #product-menu:hover ul li .submenu {
+        display: block;
+    }
+
+    li.box:nth-child(even) {
+        display: none;
+    }
+
+    #products-suggestions-list > div.wrap > ul > li:nth-child(2),
+    #products-suggestions-list > div.wrap > ul > li:nth-child(3)
+    {
+        display: none;
+    }
+
+    footer,
+    .share,
+    .copyright,
+    .email-newsletter {
+        float: none;
+        height: auto;
+        text-align: center;
+    }
+}
+
+
+

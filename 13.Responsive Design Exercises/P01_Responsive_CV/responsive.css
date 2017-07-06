@@ -1,0 +1,55 @@
+@media screen and (max-width: 740px) {
+    #wrapper {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 4.5em;
+    }
+    h3 {
+        font-size: 2.2em;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #info {
+        float: none;
+        text-align: center;
+    }
+
+    #photo {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    p {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #skills-left,
+    #skills-right {
+        float: none;
+    }
+
+    #skills-left ul li,
+    #skills-right ul li {
+        display: inline-block;
+        width: 40%;
+        background-position-x: 0;
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #wrapper {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
